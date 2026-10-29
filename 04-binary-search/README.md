@@ -116,7 +116,7 @@ return left;                                  // left == right가 답
 
 | 문제 | 링크 | 상태 |
 |---|---|---|
-| Binary Search | [LeetCode 704](https://leetcode.com/problems/binary-search/) | 아직 안 품 (틀 1) |
+| Binary Search | [LeetCode 704](https://leetcode.com/problems/binary-search/) | 완료 (틀 1) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/binary-search/BinarySearch.md) |
 | Search Insert Position | [LeetCode 35](https://leetcode.com/problems/search-insert-position/) | 아직 안 품 (틀 2) |
 | First Bad Version | [LeetCode 278](https://leetcode.com/problems/first-bad-version/) | 아직 안 품 (틀 2) |
 | Search in Rotated Sorted Array | [LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 아직 안 품 (어느 절반이 정렬됐는지 먼저 판단) |
