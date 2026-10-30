@@ -83,6 +83,8 @@ for (int right = 0; right < n; right++) {
 
 ## 동작 과정
 
+> 모양 1~4를 한 단계씩 넘겨보는 페이지: [투 포인터 따라가기](https://claude.ai/artifact/B35pUH4wkQ3Kf7PGjzSeeS) (아래 두 예시와 같은 입력, 직접 입력도 가능)
+
 **모양 1**: `[1, 3, 4, 6, 8, 11]`에서 합이 10인 두 수
 
 | left | right | 합 | 판단 |
