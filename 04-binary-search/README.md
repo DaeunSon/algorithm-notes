@@ -119,7 +119,8 @@ return left;                                  // left == right가 답
 | Binary Search | [LeetCode 704](https://leetcode.com/problems/binary-search/) | 완료 (틀 1) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/binary-search/BinarySearch.md) |
 | Search Insert Position | [LeetCode 35](https://leetcode.com/problems/search-insert-position/) | 완료 (틀 1 + `left` 반환) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/binary-search/SearchInsertPosition.md) |
 | First Bad Version | [LeetCode 278](https://leetcode.com/problems/first-bad-version/) | 완료 (틀 2) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/binary-search/FirstBadVersion.md) |
-| Search in Rotated Sorted Array | [LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 아직 안 품 (어느 절반이 정렬됐는지 먼저 판단) |
+| Search in Rotated Sorted Array | [LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 완료, 재풀이 필요 (틀 1 + 어느 절반이 정렬됐는지 먼저 판단) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/binary-search/SearchInRotatedSortedArray.md) |
+| Time Based Key-Value Store | [LeetCode 981](https://leetcode.com/problems/time-based-key-value-store/) | 완료, 재풀이 필요 (해시 + 틀 2, "이하 중 가장 큰 것" = "처음으로 큰 것"의 바로 앞) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/binary-search/TimeBasedKeyValueStore.md) |
 | 입국심사 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | 아직 안 품 (매개변수 탐색, `long`) |
 
-추천 순서는 위에서 아래로. 704, 278, 33은 Grind 75에도 있다.
+추천 순서는 위에서 아래로. 704, 278, 33, 981은 Grind 75에도 있다.
