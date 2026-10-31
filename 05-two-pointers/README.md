@@ -144,7 +144,7 @@ for (int right = 0; right < n; right++) {
 | Container With Most Water | [LeetCode 11](https://leetcode.com/problems/container-with-most-water/) | 완료, 재풀이 필요 (모양 1, 낮은 쪽을 버림) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/two-pointers/ContainerWithMostWater.md) |
 | 3Sum | [LeetCode 15](https://leetcode.com/problems/3sum/) | 완료 (정렬 + 하나 고정 + 모양 1, 중복 건너뛰기) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/two-pointers/ThreeSum.md) |
 | Find All Anagrams in a String | [LeetCode 438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | 아직 안 품 (모양 3 + `int[26]`) |
-| 연속된 부분 수열의 합 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/178870) | 아직 안 품 (모양 4, n이 10⁶) |
+| 연속된 부분 수열의 합 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/178870) | 완료, 재풀이 필요 (답 보고 작성. 모양 4: `right`로 더하고 `sum > k`인 동안 `left`를 빼며 줄이기, 길이가 **더 짧을 때만**(`<`) 갱신해서 같은 길이면 앞쪽 유지) |
 | Minimum Window Substring | [LeetCode 76](https://leetcode.com/problems/minimum-window-substring/) | 아직 안 품 (모양 4 "가장 짧은", 어려움) |
 | Trapping Rain Water | [LeetCode 42](https://leetcode.com/problems/trapping-rain-water/) | 아직 안 품 (모양 1 응용, 어려움) |
 
