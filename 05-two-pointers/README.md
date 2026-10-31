@@ -140,9 +140,9 @@ for (int right = 0; right < n; right++) {
 | Longest Substring Without Repeating Characters | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 완료 (모양 4) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/string/LongestSubstringWithoutRepeatingCharacters.md) |
 | Two Sum II - Input Array Is Sorted | [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 완료 (모양 1, 3Sum의 기초) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/two-pointers/TwoSumII.md) |
 | Move Zeroes | [LeetCode 283](https://leetcode.com/problems/move-zeroes/) | 완료 (모양 2) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/two-pointers/MoveZeroes.md) |
-| Maximum Average Subarray I | [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/) | 아직 안 품 (모양 3) |
-| Container With Most Water | [LeetCode 11](https://leetcode.com/problems/container-with-most-water/) | 아직 안 품 (모양 1, 어느 쪽을 버릴지 이유 대기) |
-| 3Sum | [LeetCode 15](https://leetcode.com/problems/3sum/) | 아직 안 품 (정렬 + 하나 고정 + 모양 1, 중복 건너뛰기) |
+| Maximum Average Subarray I | [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/) | 완료 (모양 3) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/two-pointers/MaximumAverageSubarrayI.md) |
+| Container With Most Water | [LeetCode 11](https://leetcode.com/problems/container-with-most-water/) | 완료, 재풀이 필요 (모양 1, 낮은 쪽을 버림) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/two-pointers/ContainerWithMostWater.md) |
+| 3Sum | [LeetCode 15](https://leetcode.com/problems/3sum/) | 완료 (정렬 + 하나 고정 + 모양 1, 중복 건너뛰기) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/two-pointers/ThreeSum.md) |
 | Find All Anagrams in a String | [LeetCode 438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | 아직 안 품 (모양 3 + `int[26]`) |
 | 연속된 부분 수열의 합 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/178870) | 아직 안 품 (모양 4, n이 10⁶) |
 | Minimum Window Substring | [LeetCode 76](https://leetcode.com/problems/minimum-window-substring/) | 아직 안 품 (모양 4 "가장 짧은", 어려움) |
