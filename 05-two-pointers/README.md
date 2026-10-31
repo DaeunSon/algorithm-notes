@@ -138,8 +138,8 @@ for (int right = 0; right < n; right++) {
 |---|---|---|
 | Valid Palindrome | [LeetCode 125](https://leetcode.com/problems/valid-palindrome/) | 완료 (모양 1) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/two-pointers/ValidPalindrome.md) |
 | Longest Substring Without Repeating Characters | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 완료 (모양 4) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/string/LongestSubstringWithoutRepeatingCharacters.md) |
-| Two Sum II - Input Array Is Sorted | [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 아직 안 품 (모양 1, 3Sum의 기초) |
-| Move Zeroes | [LeetCode 283](https://leetcode.com/problems/move-zeroes/) | 아직 안 품 (모양 2) |
+| Two Sum II - Input Array Is Sorted | [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 완료 (모양 1, 3Sum의 기초) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/two-pointers/TwoSumII.md) |
+| Move Zeroes | [LeetCode 283](https://leetcode.com/problems/move-zeroes/) | 완료 (모양 2) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/two-pointers/MoveZeroes.md) |
 | Maximum Average Subarray I | [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/) | 아직 안 품 (모양 3) |
 | Container With Most Water | [LeetCode 11](https://leetcode.com/problems/container-with-most-water/) | 아직 안 품 (모양 1, 어느 쪽을 버릴지 이유 대기) |
 | 3Sum | [LeetCode 15](https://leetcode.com/problems/3sum/) | 아직 안 품 (정렬 + 하나 고정 + 모양 1, 중복 건너뛰기) |
