@@ -148,10 +148,11 @@ for (int i = 0; i < park.length; i++) g[i] = park[i].toCharArray();
 | Spiral Matrix | [LeetCode 54](https://leetcode.com/problems/spiral-matrix/) | 완료, 재풀이 필요 (경계 4개) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/array/SpiralMatrix.md) |
 | String to Integer (atoi) | [LeetCode 8](https://leetcode.com/problems/string-to-integer-atoi/) | 완료, 재풀이 필요 (규칙 순서대로) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/string/StringToIntegerAtoi.md) |
 | Insert Interval | [LeetCode 57](https://leetcode.com/problems/insert-interval/) | 완료, 재풀이 필요 (세 무리를 순서대로) · [풀이 메모](https://github.com/DaeunSon/leetcode-grind75/blob/main/array/InsertInterval.md) |
+| 옹알이 (2) | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/133499) | 재풀이 필요 (힌트 보고 작성. `contains`로는 횟수·순서·연속을 못 봄 → 앞에서부터 `startsWith(p, pos)`로 한 조각씩 떼기, 직전 발음과 같으면 실패, 아무것도 못 떼면 `break` 안 하면 무한 루프) |
 | 키패드 누르기 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/67256) | 아직 안 품 (좌표로 바꿔 거리 계산, 규칙 순서) |
 | Rotate Image | [LeetCode 48](https://leetcode.com/problems/rotate-image/) | 아직 안 품 (회전 공식, 제자리에서 하려면 전치 + 좌우 뒤집기) |
 | Robot Bounded In Circle | [LeetCode 1041](https://leetcode.com/problems/robot-bounded-in-circle/) | 아직 안 품 (방향 배열, 한 바퀴 뒤 위치와 방향) |
 | Game of Life | [LeetCode 289](https://leetcode.com/problems/game-of-life/) | 아직 안 품 (8방향 이웃, 동시에 바뀜 → 복사본) |
 | 행렬 테두리 회전하기 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/77485) | 아직 안 품 (테두리를 따라 한 칸씩 밀기, 1부터 세는 좌표) |
 
-위 네 문제는 이미 푼 구현 문제다(재풀이 대상). 새 문제는 키패드 누르기 → Rotate Image → Robot Bounded In Circle → Game of Life → 행렬 테두리 회전하기 순서로.
+위 다섯 문제는 이미 푼 구현 문제다(재풀이 대상). 새 문제는 키패드 누르기 → Rotate Image → Robot Bounded In Circle → Game of Life → 행렬 테두리 회전하기 순서로.
