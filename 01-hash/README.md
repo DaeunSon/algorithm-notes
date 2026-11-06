@@ -18,6 +18,25 @@ key로 값을 O(1)로 찾는 자료구조
 
 HashMap, HashSet, getOrDefault, containsKey, keySet/values/entrySet, Character 키
 
+```java
+Map<Integer, Integer> map = new HashMap<>();
+map.put(k, v);                          // 넣기 (같은 키면 덮어씀)
+map.containsKey(k);                     // 키가 있나? → true / false
+map.get(k);                             // 키의 값 (없으면 null)
+map.getOrDefault(k, 0);                 // 없으면 0
+map.put(k, map.getOrDefault(k, 0) + 1); // 개수 세기
+map.remove(k);                          // 지우기
+for (int key : map.keySet()) { ... }    // 키 전부 돌기
+for (Map.Entry<Integer, Integer> e : map.entrySet()) { e.getKey(); e.getValue(); }
+
+Set<Integer> set = new HashSet<>();
+set.add(x);                             // 넣기 (이미 있으면 false)
+set.contains(x);                        // 있나?
+```
+
+**짝 찾기 패턴** (Two Sum): 이중 `for`문의 안쪽이 "짝이 있나?"를 찾고 있으면 해시로 바꾼다.
+`need = target - nums[i]`를 `containsKey`로 찾고, 없으면 나를 `put`한다. **찾기 → 넣기** 순서라야 나 자신을 짝으로 찾지 않는다.
+
 ## 동작 과정
 
 (작은 예시를 손으로 추적한 기록)
