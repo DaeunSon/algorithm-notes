@@ -63,7 +63,7 @@ set.contains(x);                        // 있나?
 | 폰켓몬 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/1845) | 풀이 완료 |
 | 완주하지 못한 선수 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | 풀이 완료 |
 | 전화번호 목록 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | 풀이 완료 |
-| 의상 (위장) | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | 풀이 완료 |
+| 의상 (위장) | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | 풀이 완료. 11-08 재풀이 ✗: 종류별 개수 세기는 혼자 했지만 조합 계산(`answer *= (v + 1)`)을 못 떠올려서 보고 작성. 종류마다 "이 중 하나 입기 + 안 입기" = `v + 1`가지, 종류끼리는 독립이라 곱하기, 마지막 `- 1`은 전부 안 입는 경우(최소 하나는 입어야 함) 빼기 → 재풀이 필요 |
 | 신고 결과 받기 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/92334) | 확인 후 기입 |
 | 달리기 경주 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/178871) | 확인 후 기입 |
 | 추억 점수 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/176963) | 확인 후 기입 |
