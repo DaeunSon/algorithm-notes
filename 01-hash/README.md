@@ -62,7 +62,7 @@ set.contains(x);                        // 있나?
 |---|---|---|
 | 폰켓몬 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/1845) | 풀이 완료 |
 | 완주하지 못한 선수 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | 풀이 완료 |
-| 전화번호 목록 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | 풀이 완료 |
+| 전화번호 목록 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42577) | 풀이 완료. 11-08 재풀이 △: 왜 해시인지 설명 듣고 정렬 풀이로 작성해서 통과. 해시: 번호마다 앞부분(길이 1 ~ 자기 길이 − 1)을 잘라 `HashSet`에 있는지 확인 → "전부와 비교" O(n²) 대신 "있나?" O(1). 정렬: 문자열 정렬하면 접두어 관계인 번호가 바로 옆에 붙어서 이웃끼리만 `startsWith` 비교 |
 | 의상 (위장) | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | 풀이 완료. 11-08 재풀이 ✗: 종류별 개수 세기는 혼자 했지만 조합 계산(`answer *= (v + 1)`)을 못 떠올려서 보고 작성. 종류마다 "이 중 하나 입기 + 안 입기" = `v + 1`가지, 종류끼리는 독립이라 곱하기, 마지막 `- 1`은 전부 안 입는 경우(최소 하나는 입어야 함) 빼기 → 재풀이 필요 |
 | 신고 결과 받기 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/92334) | 확인 후 기입 |
 | 달리기 경주 | [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/178871) | 확인 후 기입 |
