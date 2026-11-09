@@ -43,6 +43,7 @@ set.contains(x);                        // 있나?
 
 ## 자주 하는 실수
 
+- 짝 찾기에서 맵에 전부 먼저 넣고 찾음 -> 나 자신과 짝지음 (Two Sum `[3,2,4]`, target 6 -> `[0,0]`). 넣기 **전에** 찾기
 - map.get(키)가 없으면 null이라 int로 쓰면 NPE -> getOrDefault
 - put에서 같은 키를 덮어써서 개수가 사라짐
 - Map을 for(i=0; i<map.size(); i++)로 돌 수 없음 -> keySet(), values()

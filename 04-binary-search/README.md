@@ -122,6 +122,7 @@ return left;                                  // left == right가 답
 
 ## 자주 하는 실수
 
+- **투 포인터와 헷갈림** → `mid` 없이 `left++`, `right--`로 한 칸씩 움직이면 이분 탐색이 아니다(First Bad Version, 3Sum). "하나 물어보면 절반을 버릴 수 있나?" ([실수 노트](../실수-노트.md) 1번)
 - **`while` 조건과 갱신을 섞어 씀 → 무한 반복**
   - 틀 1은 `<=`와 `mid ± 1`, 틀 2는 `<`와 `right = mid` / `left = mid + 1`이 한 쌍이다.
   - `left <= right`에서 `right = mid`를 쓰면 `left == right == mid`일 때 범위가 안 줄어든다.
