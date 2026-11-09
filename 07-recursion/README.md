@@ -29,10 +29,10 @@
 ## 직접 구현
 
 - [ ] 백지에서 구현 (파일: `07-recursion/`)
-  - [ ] 1부터 n까지 / n부터 1까지 출력: 출력이 재귀 호출 **앞**이냐 **뒤**냐만 다름 (`PrintOrder.java`)
-  - [ ] 팩토리얼, 배열의 합(인덱스를 넘기는 재귀) (`Factorial.java`, `ArraySum.java`)
-  - [ ] 피보나치: 그냥 재귀 vs 메모이제이션, 호출 횟수 세서 비교 (`Fibonacci.java`)
-  - [ ] 거듭제곱: O(n) 재귀 vs 절반으로 나누는 O(log n) 재귀 (`Power.java`)
+  - [x] 1부터 n까지 / n부터 1까지 출력: 출력이 재귀 호출 **앞**이냐 **뒤**냐만 다름 (`PrintOrder.java`)
+  - [x] 팩토리얼, 배열의 합(인덱스를 넘기는 재귀) (`Factorial.java`, `ArraySum.java`)
+  - [x] 피보나치: 그냥 재귀 vs 메모이제이션, 호출 횟수 세서 비교 (`Fibonacci.java`)
+  - [x] 거듭제곱: O(n) 재귀 vs 절반으로 나누는 O(log n) 재귀 (`Power.java`)
   - [ ] 하노이의 탑: 이동 순서 출력 (`Hanoi.java`)
 - [ ] 작은 입력으로 `main`에서 검증
   - 반복문 버전을 같이 짜서 결과 비교

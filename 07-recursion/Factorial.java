@@ -13,8 +13,8 @@ public class Factorial {
     // n! = n × (n-1) × ... × 1, 0! = 1
     public static long factorial(int n) {
         // TODO: 종료 조건
-
+        if (n<=1) return 1;
         // TODO: 한 단계 작은 문제를 믿고 맡기기
-        return 0;
+        return n*factorial(n-1);
     }
 }

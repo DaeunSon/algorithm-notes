@@ -11,8 +11,8 @@ public class ArraySum {
     // arr[idx]부터 끝까지의 합
     public static int sum(int[] arr, int idx) {
         // TODO: 종료 조건
-
+        if (idx==arr.length) return 0;
         // TODO: 한 단계 작은 문제를 믿고 맡기기
-        return 0;
+        return arr[idx] + sum(arr, idx+1);
     }
 }
